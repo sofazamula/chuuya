@@ -75,6 +75,9 @@ html, body {
  padding-left: 3px;
  font-family: 'Source Sans Pro', sans-serif;
 }
+.char1 { color: #ff6f61; }
+.char2 { color: #00b4d8; }
+.char3 { color: #8338ec; }
 P{ color: #bce9f5;
 	font-family:'Source Sans Pro', sans-serif;}
 L {color: #bce9f5;
@@ -113,7 +116,17 @@ G { color: #bce9f5;
  background-color: black;
  opacity: 0.70;
 }
-#landing .parallax-one {
+#landing .parallax-one, .parallax-two, .parallax-three {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+background-attachment: fixed;
+ background-size: cover;
+background-repeat: no-repeat;
+}
+	#landing .parallax-one, {
  padding-top: 200px;
  padding-bottom: 200px;
  overflow: hidden;
@@ -155,17 +168,17 @@ G { color: #bce9f5;
  background-repeat: no-repeat;
  background-position: center center;
 }
-#landing .line-break {
+#landing .line-break1 {
  background: linear-gradient(60deg, #ffffff, #8ae6ff, #2a87a1);
  width: 100%;
  margin: 0 auto;
 }
-#landing .line-break {
+#landing .line-break2 {
  background: linear-gradient(60deg, #ffffff, #8ae6ff, #2a87a1);
  width: 100%;
  margin: 0 auto;
 }
-#landing .line-break {
+#landing .line-break3 {
  background: linear-gradient(60deg, #ffffff, #8ae6ff, #2a87a1);
  width: 100%;
  margin: 0 auto;
