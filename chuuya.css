@@ -75,6 +75,9 @@ html, body {
  padding-left: 3px;
  font-family: 'Source Sans Pro', sans-serif;
 }
+.line-break1 { background: linear-gradient(60deg, #ff6f61, #ff9a8b, #ffcccb); }
+.line-break2 { background: linear-gradient(60deg, #00b4d8, #48cae4, #90e0ef); }
+.line-break3 { background: linear-gradient(60deg, #8338ec, #a06cd5, #c77dff); }
 .char1 { color: #ff6f61; }
 .char2 { color: #00b4d8; }
 .char3 { color: #8338ec; }
