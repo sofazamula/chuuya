@@ -110,7 +110,7 @@ html, body {
  background-color: black;
  opacity: 0.70;
 }
-#landing .parallax-one, {
+#landing .parallax-one {
  padding-top: 200px;
  padding-bottom: 200px;
  overflow: hidden;
