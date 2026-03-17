@@ -75,9 +75,6 @@ html, body {
  padding-left: 3px;
  font-family: 'Source Sans Pro', sans-serif;
 }
-#landing .line-break1 { background: linear-gradient(60deg, #ff6f61, #ff9a8b, #ffcccb); }
-#landing .line-break2 { background: linear-gradient(60deg, #00b4d8, #48cae4, #90e0ef); }
-#landing .line-break3 { background: linear-gradient(60deg, #8338ec, #a06cd5, #c77dff); }
 .char1 { color: #ff6f61; }
 .char2 { color: #00b4d8; }
 .char3 { color: #8338ec; }
@@ -129,7 +126,7 @@ background-repeat: no-repeat;
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url(https://raw.githubusercontent.com/sofazamula/chuuya/refs/heads/main/y7WvbGwjpr_0sJWp0dSVR62VS08DX-l2CSk6S-WUx1xdoMW3EN_VMhFNztba9yOCAxWhhChUZLU3qcBqojFM9Tab.jpg);
+ background-image: url("https://raw.githubusercontent.com/sofazamula/chuuya/refs/heads/main/y7WvbGwjpr_0sJWp0dSVR62VS08DX-l2CSk6S-WUx1xdoMW3EN_VMhFNztba9yOCAxWhhChUZLU3qcBqojFM9Tab.jpg");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -143,7 +140,7 @@ background-repeat: no-repeat;
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url(https://raw.githubusercontent.com/sofazamula/chuuya/refs/heads/main/m6fZ_IjZlxny2wVOHCNyh6ij_wdT4Yk1QCPfrk14014yJS47XtdqrLCdirPvmfDBJ-gnMR4LFlZOSikD6lr_hPEw.jpg");
+ background-image: url("https://raw.githubusercontent.com/sofazamula/chuuya/refs/heads/main/m6fZ_IjZlxny2wVOHCNyh6ij_wdT4Yk1QCPfrk14014yJS47XtdqrLCdirPvmfDBJ-gnMR4LFlZOSikD6lr_hPEw.jpg");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -157,7 +154,7 @@ background-repeat: no-repeat;
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url(https://raw.githubusercontent.com/sofazamula/chuuya/refs/heads/main/ypOHDCjdaPNkMFTzZJKglrUzHvdl2DX4qcnU2zFGarWXK56omYjHsCNeKB3w-HFsskGytrnLhHIm5FT33yrEgMLE.jpg);
+ background-image: url("https://raw.githubusercontent.com/sofazamula/chuuya/refs/heads/main/ypOHDCjdaPNkMFTzZJKglrUzHvdl2DX4qcnU2zFGarWXK56omYjHsCNeKB3w-HFsskGytrnLhHIm5FT33yrEgMLE.jpg");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
