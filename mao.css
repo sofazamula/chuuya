@@ -11,7 +11,7 @@ html, body {
 
     margin: 0;
 
-  background: url("https://raw.githack.com/sofazamula/chuuya/refs/heads/main/%D1%84%D0%BE%D0%BE%D0%BE%D0%BD.jpg");
+  background: url("https://raw.githack.com/sofazamula/chuuya/refs/heads/main/%D1%82%D0%BE%D1%87%D0%BD%D0%BE%20%D1%84%D0%BE%D0%BE%D0%BE%D0%BD.jpg");
 
   background-size: cover;
 
@@ -105,7 +105,7 @@ html, body {
 
     line-height: 1.4;
 
-    color: white;
+    color: #92000a;
 
 }
 
@@ -181,7 +181,7 @@ li {
 
   text-transform: lowercase;
 
-  color: white;
+  color: #92000a;
 
   font-size: 18px;
 
