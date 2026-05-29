@@ -140,6 +140,8 @@ container {
   background-color: #ff7300;
 }
 .landing-page .content .image img {
-  max-width: 120%;
+  ;width: 100%;
+  max-width: 500px;
+  height: auto;
   margin-top: 50px;
 }
