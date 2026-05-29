@@ -9,13 +9,17 @@
 
 body {
   background-image: url("https://raw.githack.com/sofazamula/chuuya/main/86e7ef36500ab77d35b84eeeb65b8958.jpg");
-  background-repeat: no-repeat;     
-  background-size: cover;           
-  background-attachment: fixed;  
+  background-repeat: repeat-y;   
+  background-size: cover;         
+  background-attachment: fixed;   
   font-family: "Roboto", sans-serif;
   overflow: auto;
   margin: 0;
   padding: 0;
+}
+
+header, header * {
+  color: #ffffff !important;
 }
 
 header #headline, header #circular-bg {
@@ -37,16 +41,16 @@ header .info p {
 }
 
 header #circular-bg {
-  width: 600px;                   
-  height: 600px;          
-  background: #8FBC8F;            
+  width: 800px;                   
+  height: 800px;                  
+  background: #8FBC8F;             
   border-radius: 50%;
   z-index: -10;
   position: absolute;
   top: 600px;
   left: 800px;
   transform: translate(-50%, -50%);
-  opacity: 0.8;                   
+  opacity: 0.85;
 }
 
 header nav {
@@ -67,6 +71,7 @@ header #brand {
   position: absolute;
   left: 20vw;
   top: 15%;
+  color: white !important;
 }
 
 header #brand:before {
@@ -74,7 +79,7 @@ header #brand:before {
   position: absolute;
   width: 110%;
   height: 60px;
-  background-image: url("https://raw.githack.com/sofazamula/chuuya/main/86e7ef36500ab77d35b84eeeb65b8958.jpg");
+  background-image: url("https://raw.githack.com/sofazamula/chuuya/main/d4ab694c0d813233f608b4340eb010ff.png");
   bottom: -10px;
   left: -5%;
   border-radius: 60px;
@@ -94,6 +99,7 @@ header #headline {
   text-align: left;
   left: 20%;
   top: 45%;
+  color: white !important;
 }
 
 header #headline:before {
@@ -113,18 +119,26 @@ header #headline:after {
   left: -10%;
   font-size: 20px;
   letter-spacing: 1px;
+  color: white !important;
 }
 
-header button {
   margin-top: 120vh;
-  width: 140px;
-  height: 50px;
-  background: #00a550;
+  width: 200px;
+  height: 55px;
+  background: #8FBC8F;        
   border: none;
-  font-weight: 600;
-  border-radius: 5px;
-  font-size: 15px;
+  font-weight: 700;
+  border-radius: 50px;
+  font-size: 18px;
   cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+header button:hover {
+  background: #6f9e6f;
+  transform: scale(1.02);
 }
 
 .container {
@@ -187,27 +201,34 @@ input, label {
 }
 
 .button {
-  padding: 10px 30px;
+  padding: 12px 32px;
   text-decoration: none;
   font-size: 1.4em;
   margin: 15px 15px;
   border-radius: 50px;
-  color: #f4f4f4;
+  color: #ffffff !important;      
   transition: all 0.3s ease 0s;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
 }
 
 .button:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .button1 {
   background-color: #7096cf;
   box-shadow: 0 0 10px 0 #7096cf inset, 0 0 20px 2px #7096cf;
+  color: white !important;
 }
 
 .button2 {
   background-color: #bf1942;
   box-shadow: 0 0 10px 0 #bf1942 inset, 0 0 20px 2px #bf1942;
+  color: white !important;
 }
 
 .switch {
@@ -250,12 +271,12 @@ input, label {
   transition: 0.4s;
 }
 
+
 input:checked + .slider {
-  background-color: #50bfe6;
-}
+  background-color: #8FBC8F;    
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #50bfe6;
+  box-shadow: 0 0 1px #8FBC8F;
 }
 
 input:checked + .slider:before {
@@ -277,8 +298,8 @@ input:checked + .slider:before {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;                    
-  margin-top: 50px;            
+  gap: 30px;
+  margin-top: 100px;
 }
 
 .fotochka {
