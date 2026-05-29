@@ -9,9 +9,9 @@
 
 body {
   background-image: url("https://raw.githack.com/sofazamula/chuuya/main/86e7ef36500ab77d35b84eeeb65b8958.jpg");
-  background-repeat: repeat-y;
-  background-size: cover;
-  background-attachment: fixed;
+  background-repeat: no-repeat;    
+  background-size: cover;          
+  background-attachment: fixed;     
   font-family: "Roboto", sans-serif;
   overflow: auto;
   margin: 0;
@@ -37,16 +37,16 @@ header .info p {
 }
 
 header #circular-bg {
-  width: 600px;
-  height: 600px;
-  background: #8FBC8F;
+  width: 600px;                    
+  height: 600px;                    
+  background: #8FBC8F;             
   border-radius: 50%;
   z-index: -10;
   position: absolute;
   top: 600px;
   left: 800px;
   transform: translate(-50%, -50%);
-  opacity: 0.85;
+  opacity: 0.8;                    
 }
 
 header nav {
@@ -67,7 +67,6 @@ header #brand {
   position: absolute;
   left: 20vw;
   top: 15%;
-  color: white;
 }
 
 header #brand:before {
@@ -95,7 +94,6 @@ header #headline {
   text-align: left;
   left: 20%;
   top: 45%;
-  color: white;
 }
 
 header #headline:before {
@@ -109,33 +107,24 @@ header #headline:before {
 }
 
 header #headline:after {
-  content: "У нас доступны два тарифа";
+  content: "здесь текст постописания";
   position: absolute;
   top: 120%;
   left: -10%;
   font-size: 20px;
   letter-spacing: 1px;
-  color: white;
 }
 
 header button {
   margin-top: 120vh;
-  width: 200px;
-  height: 55px;
+  width: 140px;
+  height: 50px;
   background: #8FBC8F;
   border: none;
-  font-weight: 700;
-  border-radius: 50px;
-  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 15px;
   cursor: pointer;
-  color: white;
-  transition: 0.3s;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-header button:hover {
-  background: #6f9e6f;
-  transform: scale(1.02);
 }
 
 .container {
@@ -148,7 +137,7 @@ header button:hover {
   width: 300px;
   padding-bottom: 1.5em;
   height: auto;
-  background-color: #8FBC8F;
+  background-color: #8FBC8F;        
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,34 +187,27 @@ input, label {
 }
 
 .button {
-  padding: 12px 32px;
+  padding: 10px 30px;
   text-decoration: none;
   font-size: 1.4em;
   margin: 15px 15px;
   border-radius: 50px;
-  color: #ffffff !important;
+  color: #f4f4f4;
   transition: all 0.3s ease 0s;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  background-color: transparent;
 }
 
 .button:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .button1 {
   background-color: #7096cf;
   box-shadow: 0 0 10px 0 #7096cf inset, 0 0 20px 2px #7096cf;
-  color: white !important;
 }
 
 .button2 {
   background-color: #bf1942;
   box-shadow: 0 0 10px 0 #bf1942 inset, 0 0 20px 2px #bf1942;
-  color: white !important;
 }
 
 .switch {
@@ -295,8 +277,8 @@ input:checked + .slider:before {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 100px;
+  gap: 30px;                     
+  margin-top: 50px;               
 }
 
 .fotochka {
