@@ -6,12 +6,12 @@ body {
   background: linear-gradient(120deg, #000080, #42aaff, #6495ed);
 }
 a {
-  color: #000000;
+  color: #ffffff;
 }
 
 a:visited {
   
-  color: #FF4500;
+  color: #d0f0c0;
       }
       
 a:hover {
@@ -94,7 +94,7 @@ container {
   border-radius: 20px;
   padding: 10px 20px;
   color: #FFF;
-  background-color: #8a7f8e;
+  background-color: ##ff7300;
 }
 .landing-page .content .container {
   display: flex;
@@ -136,7 +136,7 @@ container {
   margin-top: 30px;
   cursor: pointer;
   color: #FFF;
-  background-color: #8a7f8e;
+  background-color: ##ff7300;
 }
 .landing-page .content .image img {
   max-width: 120%;
