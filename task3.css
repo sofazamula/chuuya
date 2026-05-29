@@ -45,6 +45,7 @@ container {
   .container {
     width: 1170px;
   }
+}
   .landing-page header {
   min-height: 80px;
   display: flex;
