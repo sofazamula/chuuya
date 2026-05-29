@@ -15,7 +15,7 @@ a:visited {
       }
       
 a:hover {
-  color: #ffffff;
+  color: #000000;
       }
 	  ul {
   list-style: none;
@@ -94,7 +94,7 @@ container {
   border-radius: 20px;
   padding: 10px 20px;
   color: #FFF;
-  background-color: ##ff7300;
+  background-color: #ff7300;
 }
 .landing-page .content .container {
   display: flex;
@@ -136,7 +136,7 @@ container {
   margin-top: 30px;
   cursor: pointer;
   color: #FFF;
-  background-color: ##ff7300;
+  background-color: #ff7300;
 }
 .landing-page .content .image img {
   max-width: 120%;
