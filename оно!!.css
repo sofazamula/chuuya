@@ -9,8 +9,13 @@
 
 body {
   background-image: url("https://raw.githack.com/sofazamula/chuuya/main/86e7ef36500ab77d35b84eeeb65b8958.jpg");
+  background-repeat: no-repeat;     
+  background-size: cover;           
+  background-attachment: fixed;  
   font-family: "Roboto", sans-serif;
   overflow: auto;
+  margin: 0;
+  padding: 0;
 }
 
 header #headline, header #circular-bg {
@@ -32,11 +37,16 @@ header .info p {
 }
 
 header #circular-bg {
-  width: 85vw;
-  height: 85vw;
-  background: DarkOliveGreen1;
+  width: 600px;                   
+  height: 600px;          
+  background: #8FBC8F;            
   border-radius: 50%;
   z-index: -10;
+  position: absolute;
+  top: 600px;
+  left: 800px;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;                   
 }
 
 header nav {
@@ -114,6 +124,7 @@ header button {
   font-weight: 600;
   border-radius: 5px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .container {
@@ -122,19 +133,17 @@ header button {
 
 .packages {
   margin: 20px;
-  top: -300px;
   position: relative;
   width: 300px;
   padding-bottom: 1.5em;
-  height: 100%;
-  background-color: DarkOliveGreen1;
+  height: auto;
+  background-color: #8FBC8F;      
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   border-radius: 20px;
-  box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
-  flex-wrap: wrap;
+  box-shadow: 0 19px 38px rgba(30, 35, 33, 0.8), 0 15px 12px rgba(30, 35, 33, 0.2);
   color: #f4f4f4;
 }
 
@@ -169,7 +178,6 @@ ol, ul {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: -300px;
 }
 
 input, label {
@@ -269,11 +277,13 @@ input:checked + .slider:before {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 30px;                    
+  margin-top: 50px;            
 }
 
 .fotochka {
-  margin-top: -150px;
-  margin-left: -110px;
+  margin-top: 50px;
+  margin-left: 0;
   width: 40%;
 }
 
@@ -282,4 +292,5 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
+  margin-top: 100px;
 }
