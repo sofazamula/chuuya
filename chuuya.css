@@ -156,16 +156,28 @@ html, body {
  background: linear-gradient(60deg, #00E5FF, #00FF5B, #1200FF);
  width: 100%;
  margin: 0 auto;
+height: 4px;           
+  border: none;         
+  outline: none;         
+  box-shadow: none; 
 }
 #landing .line-break2 {
  background: linear-gradient(60deg, #00E5FF, #00FF5B, #1200FF);
  width: 100%;
  margin: 0 auto;
+   height: 4px;          
+  border: none;          
+  outline: none;         
+  box-shadow: none; 
 }
 #landing .line-break3 {
  background: linear-gradient(60deg, #00E5FF, #00FF5B, #1200FF);
  width: 100%;
  margin: 0 auto;
+   height: 4px;          
+  border: none;         
+  outline: none;      
+  box-shadow: none; 
 }
 @media screen and (max-width: 959px) and (min-width: 768px) {
  #landing .block {
